@@ -1,15 +1,27 @@
-- name: Ruihang
-  img: logo.jpg
+- name: Julia Sotiri
+  img: 
+  location: Vancouver, Canada
+
+- name: Ruihang Liu
+  img: 
   location: Boston, MA, USA
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Grace Omotoso
+  img: 
+  location: Florida, USA
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
+- name: Qiwen Li
+  img: 
+  location: Providence, RI, USA
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Tynen Wang
+  img: 
+  location: Toronto, Canada
+
+- name: Mukhammad Sadriddinov
+  img: 
+  location: Tennessee USA
+
+- name: 
+  img: 
+  location: 
