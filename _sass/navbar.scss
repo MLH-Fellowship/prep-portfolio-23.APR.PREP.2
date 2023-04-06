@@ -50,13 +50,26 @@
     /* Your custom color */
 }
 
-.navbar .nav-link {
-    /* Add a linear gradient texture */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
-    -webkit-background-clip: text;
-    color: transparent;
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    /* set the color to white or another bright color */
 }
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffc107;
+    /* set the color to a bright yellow */
+}
+
+// .navbar .nav-link {
+//     /* Add a linear gradient texture */
+//     color: #fff;
+//     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+//     // background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+//     // -webkit-background-clip: text;
+//     // color: transparent;
+// }
+
+
 
 #BacktoTopBtn {
     display: none;
@@ -79,7 +92,8 @@
 }
 
 #BacktoTopBtn:hover {
-    background-color: #555555;
+    // background-color: #555555;
+    color: #ffc107
 }
 
 html {
