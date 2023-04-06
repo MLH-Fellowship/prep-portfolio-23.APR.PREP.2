@@ -69,3 +69,10 @@ If you want to test it locally or add some new features, run the below commands.
 bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
+
+Map and pin images taken from:
+
+<a href="https://commons.wikimedia.org/wiki/File:BlankMap-World_gray.svg">Map</a>
+
+
+<a href="https://www.freepnglogos.com/pics/pin">Pin from freepnglogos.com</a>
