@@ -21,9 +21,9 @@
 }
 .popup {
   position: fixed;
-  width: 300px;
+  width: 350px;
   height: 170px;
-  background-color: #f0e5b9;
+  background-color: rgba(224, 208, 123, 0.47);
   border: 6px solid #063970;
   padding: 10px;
   border-radius: 20px;
@@ -35,7 +35,7 @@
   float: right;
   width: 70px;
   height: 70px;
-  border-radius: 0.3em;;
+  border-radius: 0.5em;;
 
   img {
     width: 100%;
