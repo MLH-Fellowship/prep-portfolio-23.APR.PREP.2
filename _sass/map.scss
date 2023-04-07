@@ -15,13 +15,12 @@
 }
 .map svg{
   height: auto;
-  max-width: 100%;
+  max-width: 90%;
   z-index: 1;
 }
 .popup {
   position: fixed;
-  width: 350px;
-  height: 170px;
+  width: 290px;
   background-color: rgba(224, 208, 123, 0.89);
   border: 6px solid #063970;
   padding: 10px;
@@ -46,7 +45,7 @@
   font-size: 18px;
 }
 
-@media only screen and (max-width: 1026px) {
+@media only screen and (max-width: 600px) {
   .card-text {
     display: none;
   }
