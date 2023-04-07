@@ -1,4 +1,4 @@
-<header class="nav-bar">
+<!-- <header class="nav-bar">
     <div class="nav-content">
         <a href="{{ '/' | relative_url }}">
             <div class="nav-logo">
@@ -7,4 +7,74 @@
         </a>
         
     </div>
-</header>
+</header> -->
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">MLH-Prep-April-2</a> -->
+        <div class="nav-content">
+            <a href="{{ '/' | relative_url }}">
+                <div class="nav-logo">
+                    <img src="./assets/img/mlh-prep.png" />
+                    <!-- <p>hahahhahaha</p> -->
+                </div>
+            </a>
+
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link " aria-current="page" href="#description">Team</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <!-- id needs to be changed according to the map id -->
+                <a class="nav-link" href="#map">Map</a>
+                <a class="nav-link" href="#board">Board</a>
+
+                <!-- <a class="nav-link disabled">Disabled</a> -->
+            </div>
+        </div>
+    </div>
+</nav>
+
+<button onclick="topFunction()" id="BacktoTopBtn" title="Go to top">Back to Top</button>
+
+
+
+<script>
+    var navbarLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+    navbarLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            navbarLinks.forEach(function (navlink) {
+                navlink.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
+</script>
+
+<script>
+    // Get the button
+    var mybutton = document.getElementById("BacktoTopBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
