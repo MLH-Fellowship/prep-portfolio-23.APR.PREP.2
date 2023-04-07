@@ -1,15 +1,23 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Julia Sotiri
+  img: Julia Sotiri.jpg
+  location: Vancouver, Canada
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Ruihang Liu
+  img: Ruihang Liu.jpg
+  location: Boston, MA, USA
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
+- name: Grace Omotoso
+  img: Grace Omotoso.jpg
+  location: Florida, USA
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Qiwen Li
+  img: Qiwen Li.jpg
+  location: Providence, RI, USA
+
+- name: Tynen Wang
+  img: Tynen Wang.jpg
+  location: Toronto, Canada
+
+- name: Mukhammad Sadriddinov
+  img: Mukhammad Sadriddinov.jpg
+  location: Tennessee USA
