@@ -2,13 +2,6 @@
 layout: default
 ---
 
-<style type="text/css">
-    A:link { COLOR: white; TEXT-DECORATION: none; font-weight: bold }
-    A:visited { COLOR: white; TEXT-DECORATION: none; font-weight: bold }
-    A:active { COLOR: black; TEXT-DECORATION: none }
-    A:hover { COLOR: black; TEXT-DECORATION: none; font-weight: bold }
-</style>
-
 <div class="banner">
     <div class="container">
         <div class="logo">
@@ -17,10 +10,11 @@ layout: default
             </a>
         </div>
         <div class="title">
-            <a href="/">
-                🔙 {{ page.title }}
-            </a>
+            {{ page.title }}
         </div>
+        <a href="/">
+            <img src="/assets/img/back.png" height="30"/>
+        </a>
     </div>
 </div>
 
