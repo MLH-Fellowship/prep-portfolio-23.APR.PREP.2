@@ -17,6 +17,18 @@ html {
     font-weight: 300;
     color: var(--textColor);
   }
+
+  h2 {
+    color: var(--textColor);
+  }
+
+  .leadership-board td, .leadership-board th {
+    color: var(--textColor);
+  }
+
+  .info p {
+    color: var(--textColor);
+  }
   
   input[type=checkbox] {
     height: 0;
@@ -67,4 +79,5 @@ html {
     transform: translateX(-100%);
   }
 
-  
+
+
