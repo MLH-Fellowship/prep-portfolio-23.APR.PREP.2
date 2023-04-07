@@ -1,16 +1,14 @@
 html {
-    background: var(--lightBg);
-  
     --lightBtn: #FFBD07;
     --lightBg: #fff;
     --lightColor: #232323;
   }
   
   html[data-theme='dark'] {
-     background: var(--lightBg);
     --lightBtn: #7345df;
     --lightBg: #232323;
     --lightColor: #fff;
+    --cardBg: #5f5f5f;
   }
   
   h1 {
