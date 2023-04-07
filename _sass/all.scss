@@ -15,7 +15,7 @@
 }
 
 .section h2 {
-  color: #333;
+  color: var(--textColor);
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
@@ -64,7 +64,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   margin: 20px 30px;
-  background-color: white;
+  background-color: var(--cardBg);
   border-radius: .375rem;
   padding: 1.5em;
   font-size: 1.2em;
@@ -112,7 +112,7 @@ a {
         color: var(--textColor);
     }
   margin: 20px 30px;
-  background-color: white;
+  background-color: var(--cardBg);
   border-radius: .375rem;
   // padding: 1.0em;
   font-size: 1.2em;
@@ -120,7 +120,7 @@ a {
 }
 
 a {
-  color: black;
+  color: var(--textColor);
 }
 
 .info {
