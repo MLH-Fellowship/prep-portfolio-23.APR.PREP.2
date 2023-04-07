@@ -34,3 +34,88 @@
     padding-top: 0px;
     padding-right: 0px;
 }
+
+
+footer{
+    width: 100%;
+    background-color: #133667;
+    font-family: "Poppins", serif;
+    font-weight: 700 !important;
+    padding-top: 10px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-menu{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.footer-menu li{
+    display:inline;
+}
+.footer-menu a{
+    color: rgb(255, 255, 255);
+    display:inline-block;
+    padding:40px;
+}
+
+.socials{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.socials li{
+    display:inline;
+}
+.socials a{
+    color: rgb(167, 167, 167);
+    display:inline-block;
+    padding:40px;
+}
+
+.socials a i{
+    font-size: 1.4rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    width:40%;
+}
+
+.copyright {
+    text-align: center;
+    color: rgb(206, 205, 205);
+    font-size: .8em;
+    padding-bottom: 2em;
+}
+
+@media (max-width:500px) {
+    .footer-menu ul{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+    .socials ul{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: inline-block;
+      }
+}
+
+
+
