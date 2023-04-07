@@ -4,6 +4,7 @@
 @import 'profile';
 @import 'page';
 @import "podStats";
+@import "toggle";
 
 .card-container {
     display: grid;
@@ -46,14 +47,14 @@ h2 {
     flex-direction: row;
     align-items: center;
     margin: 20px 30px;
-    background-color: white;
+    background-color:  var(--cardBg);
     border-radius: .375rem;
     padding: 1.5em;
     font-size: 1.2em;
 }
 
 a {
-    color: black;
+    color: var(--textColor);
 }
 
 .info {
@@ -75,7 +76,7 @@ a {
 
     .dates {
         font-size: small;
-        color: #404040;
+        color: var(--textColor);
     }
 }
 
