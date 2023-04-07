@@ -1,4 +1,4 @@
-.map{
+.map-holder{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,28 +8,42 @@
   max-width: 90%;
   left: 5%;
 }
-.map img {
-  height: auto;
-  max-width: 90%;
-  z-index: 1;
-}
-.map-holder{
+.map{
   position: relative;
   height: 100vh;
   width: 90%;
+  left: 10%;
 }
-
-.pin img {
-  position: absolute;
+.map svg{
   height: auto;
-  max-width: 2%;
-  min-height: 20px;
-  top: 19%;
-  left:27%;
-  z-index: 2;
+  max-width: 100%;
+  z-index: 1;
 }
-area {
-  fill: blue;
+.popup {
+  position: fixed;
+  width: 300px;
+  height: 170px;
+  background-color: #f0e5b9;
+  border: 6px solid #063970;
+  padding: 10px;
+  border-radius: 20px;
 }
 
+.image-card{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  width: 70px;
+  height: 70px;
+  border-radius: 0.3em;;
+
+  img {
+    width: 100%;
+  }
+}
+
+.popup h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
 

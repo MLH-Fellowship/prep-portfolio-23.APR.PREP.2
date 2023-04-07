@@ -70,9 +70,5 @@ bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
 
-Map and pin images taken from:
+Map image taken from: <a href="https://commons.wikimedia.org/wiki/File:America_N._Great_Lakes_map.svg">right here</a> :)
 
-<a href="https://commons.wikimedia.org/wiki/File:BlankMap-World_gray.svg">Map</a>
-
-
-<a href="https://www.freepnglogos.com/pics/pin">Pin from freepnglogos.com</a>
