@@ -5,7 +5,7 @@ checkbox.addEventListener('change', function() {
         document.documentElement.setAttribute('data-theme', 'dark')
     } else {
         trans()
-        document.documentElement.setAttribute('data-theme', 'light')
+        document.documentElement.removeAttribute('data-theme', 'dark')
     }
 })
 
