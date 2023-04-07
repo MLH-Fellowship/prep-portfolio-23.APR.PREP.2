@@ -46,3 +46,13 @@
   font-size: 18px;
 }
 
+@media only screen and (max-width: 1026px) {
+  .card-text {
+    display: none;
+  }
+  .popup {
+    height: 100px;
+    width: 100px;
+  }
+}
+
