@@ -27,10 +27,20 @@
   border-radius: 20px;
 }
 
-.image-card{
-  display: inline-block;
-  vertical-align: top;
-  float: right;
+.image-card-map {
+  display: inline-block !important;
+  vertical-align: top !important;
+  float: right !important;
+  width: 70px;
+  height: 70px;
+  border-radius: 0.5em;;
+
+  img {
+    width: 100%;
+  }
+}
+
+.im-map{
   width: 70px;
   height: 70px;
   border-radius: 0.5em;;
@@ -45,7 +55,7 @@
   font-size: 18px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .card-text {
     display: none;
   }
