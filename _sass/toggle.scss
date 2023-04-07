@@ -1,21 +1,21 @@
 html {
-    --lightBtn: #FFBD07;
-    --lightBg: #fff;
-    --lightColor: #232323;
+    --button: #FFBD07;
+    --mainBg: #fff;
+    --textColor: #232323;
     --cardBg: #ffffff;
   }
   
   html[data-theme='dark'] {
-    --lightBtn: #7345df;
-    --lightBg: #232323;
-    --lightColor: #fff;
+    --button: #7345df;
+    --mainBg: #2f2f2f;
+    --textColor: #fff;
     --cardBg: #5f5f5f;
   }
   
   h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    color: var(--lightColor);
+    color: var(--textColor);
   }
   
   input[type=checkbox] {
@@ -29,7 +29,7 @@ html {
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: var(--lightBtn);
+    background: var(--button);
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@ html {
   }
   
   input:checked + label {
-    background: #7345df;
+    background: var(--button);
   }
   
   input:checked + label:after {
