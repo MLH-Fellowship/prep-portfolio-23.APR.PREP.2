@@ -15,7 +15,7 @@
 }
 
 .section h2 {
-  color: #333;
+  color: var(--textColor);
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
@@ -48,7 +48,7 @@
 
 
 body {
-  background-color: #f5f5f9;
+  background-color: var(--mainBg);
   margin-bottom: 50px;
 }
 
@@ -57,6 +57,11 @@ h2 {
   margin-top: 20px;
   font-weight: 700;
   text-align: center;
+  color: var(--textColor);
+}
+
+.card-title, .card-text, .dates, .card-text, small .text-body-secondary{
+  color: var(--textColor);
 }
 
 .firt-card {
@@ -64,7 +69,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   margin: 20px 30px;
-  background-color: white;
+  background-color: var(--cardBg);
   border-radius: .375rem;
   padding: 1.5em;
   font-size: 1.2em;
@@ -77,7 +82,6 @@ h2 {
 
 .card {
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin: 20px 30px;
     background-color:  var(--cardBg);
@@ -87,17 +91,13 @@ h2 {
 }
 
 a {
-    color: var(--textColor);
+  color: var(--textColor);
   margin: 20px 30px;
-  background-color: white;
+  //background-color: white;
   border-radius: .375rem;
   // padding: 1.0em;
   font-size: 1.2em;
 
-}
-
-a {
-  color: black;
 }
 
 .info {
@@ -105,6 +105,7 @@ a {
     margin-top: 5px;
     margin: 0px;
     text-align: left;
+    color: var(--textColor);
   }
 
   .title {
@@ -116,6 +117,7 @@ a {
   .description {
     font-size: medium;
     font-weight: 400;
+    color: var(--textColor);
   }
 
     .dates {
