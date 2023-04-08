@@ -1,21 +1,28 @@
-<!-- <div class="section" id="projects">
-  <h2>Projects</h2>
-  <div class="card-container">
+<div class="section" id="projects">
+  <div class="section-title">
+    <h2>Projects</h2>
+  </div>
+  <div class="row mg-2">
     {% for item in site.data.projects %}
     {% if item.page-name %}
-    <a href="/projects/{{ item.page-name }}">
-      {% else %}
-      <a>
-        {% endif %}
-        <div class="card">
-          <div class="info">
-            <p class="title">{{ item.title }}</p>
-            <p class="location">{{ item.event }}</p>
-            <p class="dates">{{ item.date }}</p>
+    <div class="col-sm-3 mb-3 mb-sm-0">
+      <a href="/projects/{{ item.page-name }}">
+        {% else %}
+        <a>
+          {% endif %}
+          <div class="card m-2 text-center">
+            <!-- This is a dummy image src needs to be replaced in the yml!!!!! -->
+            <img src={{item.img}} class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{ item.title }}</h5>
+              <p class="card-text">{{ item.event }}</p>
+              <p class="dates">{{ item.date }}</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
           </div>
-        </div>
-      </a>
-      {% endfor %}
+        </a>
+    </div>
+    {% endfor %}
   </div>
 </div> -->
 
