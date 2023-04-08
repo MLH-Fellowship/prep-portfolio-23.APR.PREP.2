@@ -5,9 +5,9 @@
 @import 'page';
 
 .section .section-title {
-  // background-color: #f2f2f2;
+  background-color: #f2f2f2;
   border-radius: 8px;
-  // padding: 0.5rem;
+  padding: 0.5rem;
   text-align: center;
 
 }
@@ -26,6 +26,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.card-container a {
+  display: inline;
+}
+
 @media only screen and (max-width: 1500px) {
   .card-container {
     grid-template-columns: repeat(3, 1fr);
@@ -42,7 +46,7 @@
   .card-container {
     grid-template-columns: 1fr;
   }
-}
+} 
 
 
 body {
@@ -66,6 +70,7 @@ h2 {
   border-radius: .375rem;
   padding: 1.5em;
   font-size: 1.2em;
+  justify-content: center;
 }
 
 .row {
@@ -77,7 +82,7 @@ h2 {
   margin: 20px 30px;
   background-color: white;
   border-radius: .375rem;
-  // padding: 1.0em;
+  padding: 1.0em;
   font-size: 1.2em;
 
 }
@@ -107,6 +112,25 @@ a {
   .dates {
     font-size: small;
     color: #404040;
+  }   
+
+  .dates {
+      font-size: small;
+      color: #404040;
+  }
+
+  .social-icon {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999px; /* hide the link text */
+  }
+  
+    .social-icon:hover {
+    width: 40px;
+    height: 40px; 
   }
 }
 
