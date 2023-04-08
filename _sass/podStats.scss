@@ -4,7 +4,7 @@
     margin: auto;
     align-items: center;
     margin: 20px 20px;
-    background-color: var(--cardBg);
+    background-color: #fff;
     border-radius: .375rem;
     padding: 1.5em;
     font-size: 1.2em;
@@ -12,7 +12,7 @@
   }
 
   h2 {
-    color: var(--textColor);
+    color:#000;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 20px;
@@ -32,8 +32,8 @@
   .leadership-board th {
     font-weight: bold;
     text-align: left;
-    background-color: var(--mainBg);
-    color: var(--textColor);
+    background-color: #fff;
+    color: #000;
   }
 
   .container {
@@ -44,7 +44,7 @@
   }
   
   .fellowRow:nth-child(even) {
-    background-color: var(--mainBg);
+    background-color: #d7d7d7;
     
   }
   

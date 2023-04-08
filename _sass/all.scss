@@ -56,11 +56,11 @@ h2 {
   margin-top: 20px;
   font-weight: 700;
   text-align: center;
-  color: var(--textColor);
+  color: #000;
 }
 
 .card-title, .card-text, .dates, .card-text, small .text-body-secondary{
-  color: var(--textColor);
+  color: #000;
 }
 
 .firt-card {
@@ -83,14 +83,14 @@ h2 {
     display: flex;
     align-items: center;
     margin: 20px 30px;
-    background-color:  var(--cardBg);
+    background-color:  #fff;
     border-radius: .375rem;
     padding: 1.5em;
     font-size: 1.2em;
 }
 
 a {
-  color: var(--textColor);
+  color: #000;
   margin: 20px 30px;
   background-color: white;
   border-radius: .375rem;
@@ -115,7 +115,6 @@ a {
   .description {
     font-size: medium;
     font-weight: 400;
-    color: var(--textColor);
   }
 
     .dates {
