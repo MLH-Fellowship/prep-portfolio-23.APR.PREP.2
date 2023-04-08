@@ -1,22 +1,62 @@
 - name: Julia Sotiri
   img: Julia Sotiri.jpg
   location: Vancouver, Canada
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/julia-s-a7b200b2/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: 
+  github-logo: github.jpg
+  github: https://github.com/JuliaS96
 
 - name: Ruihang Liu
   img: Ruihang Liu.jpg
   location: Boston, MA, USA
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/ruihang-liu/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1d7CBHj4g4OILGd1Sh0yRgG7g4UisR2nD/view
+  github-logo: github.jpg
+  github: https://github.com/hrl-2024
 
 - name: Grace Omotoso
   img: Grace Omotoso.jpg
   location: Florida, USA
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/grace-omotoso-18003345/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1TzEfviFVPYpJSj3PYu1AqKSdUVJC80dT/view
+  github-logo: github.jpg
+  github: https://github.com/grace-omotoso
 
 - name: Qiwen Li
   img: Qiwen Li.jpg
   location: Providence, RI, USA
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/qiwen-li17/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1dH2SuOn5iwe47vWX1o21plsshB1zNqsI/view
+  github-logo: github.jpg
+  github: https://github.com/MadaniKK
 
 - name: Tynen Wang
   img: Tynen Wang.jpg
   location: Toronto, Canada
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/tynen-wang/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: 
+  github-logo: github.jpg
+  github: https://github.com/TynenW?tab=repositories
 
 - name: Mukhammad Sadriddinov
   img: Mukhammad Sadriddinov.jpg
@@ -26,114 +66,66 @@
   twitter-logo: twitter.jpg
   twitter: https://www.twitter.com
   resume-logo: resume-icon.jpg
-  resume: link
+  resume: https://drive.google.com/file/d/1TwZkfum52ljcPMCtjsir7D_SDufp9wm5/view
   github-logo: github.jpg
   github: https://github.com/mukhsadr
 
-- name: Alisha Maddy
-  img: alisha.jpg
-  location: Portland, Oregon
-  linkedln-logo: linkedin.jpg
-  linkedin: https://www.linkedin.com/in/am831/
-  twitter-logo: twitter.jpg
-  twitter: https://www.twitter.com
-  resume-logo: resume-icon.jpg
-  resume: link
-  github-logo: github.jpg
-  github: https://github.com/am831
-
-- name: Julia Sotiri
-  img: mlh.jpg
-  location: Vancouver, Canada
-  linkedln-logo: linkedin.jpg
-  linkedin: https://www.linkedin.com/in/julia-s-a7b200b2/
-  twitter-logo: twitter.jpg
-  twitter: https://www.twitter.com
-  resume-logo: resume-icon.jpg
-  resume: link
-  github-logo: github.jpg
-  github: https://github.com/JuliaS96
-
-- name: Qiwen Li
-  img: mlh.jpg
-  location: Providence, RI, USA
-  linkedln-logo: linkedin.jpg
-  linkedin: https://www.linkedin.com/in/qiwen-li17/
-  twitter-logo: twitter.jpg
-  twitter: https://www.twitter.com
-  resume-logo: resume-icon.jpg
-  resume: link
-  github-logo: github.jpg
-  github: https://github.com/MadaniKK
-
-- name: Carol Geng
-  img: carol.jpg
-  location: Houston, Texas
-  linkedln-logo: linkedin.jpg
-  linkedin: https://www.linkedin.com/in/carolgeng/
-  twitter-logo: twitter.jpg
-  twitter: https://www.twitter.com
-  resume-logo: resume-icon.jpg
-  resume: link
-  github-logo: github.jpg
-  github: https://github.com/carolgeng/
-
-- name: Chinat Yu
-  img: chinat.jpg
-  location: Balitmore, MD
-  linkedln-logo: linkedin.jpg
-  linkedin: https://www.linkedin.com/in/chinat-yu/
-  twitter-logo: twitter.jpg
-  twitter: https://www.twitter.com
-  resume-logo: resume-icon.jpg
-  resume: link
-  github-logo: github.jpg
-  github: https://github.com/cyu60
-
-- name: Ruihang Liu
-  img: mlh.jpg
-  location: Boston, MA 
-  linkedln-logo: linkedin.jpg
-  linkedin: https://www.linkedin.com/in/ruihang-liu/
-  twitter-logo: twitter.jpg
-  twitter: https://www.twitter.com
-  resume-logo: resume-icon.jpg
-  resume: link
-  github-logo: github.jpg
-  github: https://github.com/hrl-2024
-
-- name: Tynen Wang
-  img: mlh.jpg
-  location: Toronto, Canada
-  linkedln-logo: linkedin.jpg
-  linkedin: https://www.linkedin.com/in/tynen-wang/
-  twitter-logo: twitter.jpg
-  twitter: https://www.twitter.com
-  resume-logo: resume-icon.jpg
-  resume: link
-  github-logo: github.jpg
-  github: https://github.com/TynenW
-
-- name: Margaret Diaz
-  img: margaret.jpg
-  location: Queens, NY
-  linkedln-logo: linkedin.jpg
-  linkedin: https://www.linkedin.com/in/margaret-diaz4570/
-  twitter-logo: twitter.jpg
-  twitter: https://www.twitter.com
-  resume-logo: resume-icon.jpg
-  resume: https://doc-0s-18-apps-viewer.googleusercontent.com/viewer/secure/pdf/ql4ev4aqnj92jhouoaqf3e532kti6mnh/8jb0dl0m6sp4mtd08gp1iht4dt0hk3j0/1680829200000/gmail/01823438286079302957/ACFrOgCeLFGz9-WDiJ8-ioVQFOzlIXTG38d3IYdFy0PvOyEjuz1A-330NnHBlOdEnrp__9rbfW2ROfRI9nCYA9KqIgyDyDN_p3CTUvOTZHlkO27aLSEdB3Ciaypu8ic=?print=true&nonce=pqrp8r8p73bv0&user=01823438286079302957&hash=4qm5ph2qd4lv2m5rg3gvui5c8u34b78u
-  github-logo: github.jpg
-  github: https://github.com/MargaretDiaz4570
-
 - name: Duy Nguyen
-  img: duy.jpg
+  img: Duy-Nguyen.jpg
   location: Northfield, Minnesota
   linkedln-logo: linkedin.jpg
   linkedin: https://www.linkedin.com/in/duyngp/
   twitter-logo: twitter.jpg
   twitter: https://www.twitter.com
   resume-logo: resume-icon.jpg
-  resume: link
+  resume: https://drive.google.com/file/d/1-WCbDujuP7_IT4Hwc3htrY6xQ5s4Ti3j/view
   github-logo: github.jpg
   github: https://github.com/DuyNguyenPhuong
+
+- name: Margaret Diaz
+  img: Margaret-Diaz.jpg
+  location: Queens, NY
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/margaret-diaz4570/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1pknbXNljJDh47WFE5Xe4UZHkBffrjjci/view
+  github-logo: github.jpg
+  github: https://github.com/MargaretDiaz4570
+
+- name: Alisha Maddy
+  img: Alisha-Maddy.jpg
+  location: Portland, Oregon
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/am831/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://docs.google.com/document/d/18RvkEHKX9gdG449J21s51MMW2z7wq4TzxCD2Iql8aUE/edit
+  github-logo: github.jpg
+  github: https://github.com/am831
+
+- name: Carol Geng
+  img: Carol-Geng.jpg
+  location: Houston, Texas
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/carolgeng/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: 
+  github-logo: github.jpg
+  github: https://github.com/carolgeng/
+
+- name: Chinat Yu
+  img: Chinat-Yu.jpg
+  location: Balitmore, MD
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/chinat-yu/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: 
+  github-logo: github.jpg
+  github: https://github.com/cyu60
