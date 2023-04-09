@@ -1,0 +1,20 @@
+name: Image Compression
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  compress-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install sharp
+
+      - name: Compress images
+        run: |
+          npx sharp --input_dir=./assets/img --output_dir=./assets/img --jpeg '{ "quality": 70 }' --png '{ "quality": 50 }'
