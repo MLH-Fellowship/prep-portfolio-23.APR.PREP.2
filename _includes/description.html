@@ -1,11 +1,24 @@
-<h2>Meet the Pod</h2>
-<div class="card-container">
-    {% for item in site.data.fellows %}
-    <div class="card">
-        <div class="info">
-            <p class="title"> {{ item.name }}</p>
-            <p class="location"> {{ item.location }}</p>
-        </div>
+<div class="section" id="description">
+    <div class="section-title">
+        <h2>Meet the Pod</h2>
     </div>
-    {% endfor %}
+    <div class="card-container">
+        {% for item in site.data.fellows %}
+
+        {% if item.name %}
+        <a href="/profiles/{{ item.name }}">
+            {% else %}
+            <a>
+                {% endif %}
+
+                <div class="firt-card">
+                    <img class="image-card" src="./assets/img/{{ item.img }}" />
+                    <div class="info">
+                        <p class="title"> {{ item.name }}</p>
+                        <p class="location"> {{ item.location }}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+    </div>
 </div>

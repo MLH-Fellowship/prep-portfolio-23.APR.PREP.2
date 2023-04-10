@@ -69,3 +69,6 @@ If you want to test it locally or add some new features, run the below commands.
 bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
+
+Map image taken from: <a href="https://commons.wikimedia.org/wiki/File:America_N._Great_Lakes_map.svg">right here</a> :)
+
