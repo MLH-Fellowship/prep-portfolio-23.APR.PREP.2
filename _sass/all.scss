@@ -8,6 +8,25 @@
 @import "toggle";
 @import "description";
 
+@media only screen and (max-width: 1500px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+} 
+
+
 body {
   background-color: var(--mainBg);
   margin-bottom: 50px;
@@ -44,6 +63,46 @@ a {
   padding: 1.0em;
   font-size: 1.2em;
 
+}
+
+.info {
+  p {
+    margin-top: 5px;
+    margin: 0px;
+    text-align: left;
+    color: var(--textColor);
+  }
+
+  .title {
+    font-size: 500;
+    font-weight: bold;
+  }
+
+  .location,
+  .description {
+    font-size: medium;
+    font-weight: 400;
+    color: var(--textColor);
+  }
+
+  .dates {
+    font-size: small;
+    color: var(--textColor);
+  }   
+
+  .social-icon {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999px; /* hide the link text */
+  }
+  
+    .social-icon:hover {
+    width: 40px;
+    height: 40px; 
+  }
 }
 
 .icon {
