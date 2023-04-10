@@ -6,6 +6,7 @@
 @import 'page';
 @import "podStats";
 @import "toggle";
+@import "description";
 
 .section .section-title {
   background-color: var(--mainBg);
@@ -63,22 +64,6 @@ h2 {
   font-weight: 700;
   text-align: center;
   color: var(--textColor);
-}
-
-.card-title, .card-text, .dates, .card-text, small .text-body-secondary{
-  color: var(--textColor);
-}
-
-.firt-card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px 30px;
-  background-color: var(--cardBg);
-  border-radius: .375rem;
-  padding: 1.5em;
-  font-size: 1.2em;
-  justify-content: center;
 }
 
 .row {
@@ -157,15 +142,29 @@ a {
   }
 }
 
-.image-card {
-  width: 70px;
-  height: 70px;
-  border-radius: 0.3em;
-  ;
-  margin: 1.0em;
-  ;
+.section .section-title {
+  background-color: var(--cardBg);
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
 
-  img {
-    width: 100%;
-  }
+}
+.section h2 {
+  color: var(--textColor);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Open Sans", sans-serif;
+}
+.card-container a {
+  display: inline;
+}
+
+.card-title, .card-text, .dates, .card-text, small .text-body-secondary{
+  color: var(--textColor);
 }

@@ -16,7 +16,8 @@ h2 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
-  text-transform: uppercase;}
+  text-transform: uppercase;
+}
 
 .leadership-board {
   border-collapse: collapse;
@@ -77,4 +78,11 @@ h2 {
 .fellow-name {
   display: flex;
   align-items: center;
+}
+
+.section-title{
+  background-color: var(--cardBg);
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
 }
