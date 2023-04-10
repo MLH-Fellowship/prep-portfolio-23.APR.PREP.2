@@ -1,31 +1,131 @@
 - name: Julia Sotiri
   img: Julia Sotiri.jpg
   location: Vancouver, Canada
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/julia-s-a7b200b2/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: 
+  github-logo: github.jpg
+  github: https://github.com/JuliaS96
 
 - name: Ruihang Liu
   img: Ruihang Liu.jpg
   location: Boston, MA, USA
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/ruihang-liu/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1d7CBHj4g4OILGd1Sh0yRgG7g4UisR2nD/view
+  github-logo: github.jpg
+  github: https://github.com/hrl-2024
 
 - name: Grace Omotoso
   img: Grace Omotoso.jpg
   location: Florida, USA
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/grace-omotoso-18003345/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1TzEfviFVPYpJSj3PYu1AqKSdUVJC80dT/view
+  github-logo: github.jpg
+  github: https://github.com/grace-omotoso
 
 - name: Qiwen Li
   img: Qiwen Li.jpg
   location: Providence, RI, USA
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/qiwen-li17/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1dH2SuOn5iwe47vWX1o21plsshB1zNqsI/view
+  github-logo: github.jpg
+  github: https://github.com/MadaniKK
 
 - name: Tynen Wang
   img: Tynen Wang.jpg
   location: Toronto, Canada
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/tynen-wang/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: 
+  github-logo: github.jpg
+  github: https://github.com/TynenW?tab=repositories
 
 - name: Mukhammad Sadriddinov
   img: Mukhammad Sadriddinov.jpg
   location: Tennessee USA
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/mukhsadr/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1TwZkfum52ljcPMCtjsir7D_SDufp9wm5/view
+  github-logo: github.jpg
+  github: https://github.com/mukhsadr
 
 - name: Duy Nguyen
-  img: Duy Nguyen.jpg
+  img: Duy-Nguyen.jpg
   location: Northfield, Minnesota
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/duyngp/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1-WCbDujuP7_IT4Hwc3htrY6xQ5s4Ti3j/view
+  github-logo: github.jpg
+  github: https://github.com/DuyNguyenPhuong
 
 - name: Margaret Diaz
-  img: Margaret Diaz.jpg
+  img: Margaret-Diaz.jpg
   location: Queens, NY
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/margaret-diaz4570/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://drive.google.com/file/d/1pknbXNljJDh47WFE5Xe4UZHkBffrjjci/view
+  github-logo: github.jpg
+  github: https://github.com/MargaretDiaz4570
+
+- name: Alisha Maddy
+  img: Alisha-Maddy.jpg
+  location: Portland, Oregon
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/am831/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: https://docs.google.com/document/d/18RvkEHKX9gdG449J21s51MMW2z7wq4TzxCD2Iql8aUE/edit
+  github-logo: github.jpg
+  github: https://github.com/am831
+
+- name: Carol Geng
+  img: Carol-Geng.jpg
+  location: Houston, Texas
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/carolgeng/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: 
+  github-logo: github.jpg
+  github: https://github.com/carolgeng/
+
+- name: Chinat Yu
+  img: Chinat-Yu.jpg
+  location: Balitmore, MD
+  linkedln-logo: linkedin.jpg
+  linkedin: https://www.linkedin.com/in/chinat-yu/
+  twitter-logo: twitter.jpg
+  twitter: https://www.twitter.com
+  resume-logo: resume-icon.jpg
+  resume: 
+  github-logo: github.jpg
+  github: https://github.com/cyu60
