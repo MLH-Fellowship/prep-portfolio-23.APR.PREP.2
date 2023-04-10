@@ -71,4 +71,4 @@ bundle exec jekyll serve
 ```
 
 Map image taken from: <a href="https://commons.wikimedia.org/wiki/File:America_N._Great_Lakes_map.svg">right here</a> :)
-
+free background photos from https://pngtree.com/freebackground/modern-double-color-futuristic-neon-background_1181573.html?sol=downref&id=bef
