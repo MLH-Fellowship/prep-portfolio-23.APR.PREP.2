@@ -79,3 +79,8 @@ input:checked + label:after {
   -o-transform: translateX(-100%);
   transform: translateX(-100%);
 }
+
+.container{
+  padding-top: 5px;
+  padding-right: 25px;
+}
