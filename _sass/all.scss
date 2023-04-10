@@ -6,32 +6,7 @@
 @import 'page';
 @import "podStats";
 @import "toggle";
-
-.section .section-title {
-  background-color: #f2f2f2;
-  border-radius: 8px;
-  padding: 0.5rem;
-  text-align: center;
-
-}
-
-.section h2 {
-  color: var(--textColor);
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  font-family: "Open Sans", sans-serif;
-}
-
-.card-container a {
-  display: inline;
-}
+@import "description";
 
 @media only screen and (max-width: 1500px) {
   .card-container {
@@ -65,22 +40,6 @@ h2 {
   color: var(--textColor);
 }
 
-.card-title, .card-text, .dates, .card-text, small .text-body-secondary{
-  color: var(--textColor);
-}
-
-.firt-card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px 30px;
-  background-color: var(--cardBg);
-  border-radius: .375rem;
-  padding: 1.5em;
-  font-size: 1.2em;
-  justify-content: center;
-}
-
 .row {
   margin: 30px 30px;
 
@@ -106,51 +65,6 @@ a {
 
 }
 
-.info {
-  p {
-    margin-top: 5px;
-    margin: 0px;
-    text-align: left;
-    color: var(--textColor);
-  }
-
-  .title {
-    font-size: 500;
-    font-weight: bold;
-  }
-
-  .location,
-  .description {
-    font-size: medium;
-    font-weight: 400;
-    color: var(--textColor);
-  }
-
- toggle
-    .dates {
-        font-size: small;
-        color: var(--textColor);
-    }
-  .dates {
-    font-size: small;
-    color: #404040;
-  }   
-
-  .social-icon {
-    margin-top: 10px;
-    width: 30px;
-    height: 30px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-indent: -9999px; /* hide the link text */
-  }
-  
-    .social-icon:hover {
-    width: 40px;
-    height: 40px; 
-  }
-}
-
 .icon {
   width: 70px;
   height: 70px;
@@ -162,15 +76,29 @@ a {
   }
 }
 
-.image-card {
-  width: 70px;
-  height: 70px;
-  border-radius: 0.3em;
-  ;
-  margin: 1.0em;
-  ;
+.section .section-title {
+  background-color: var(--cardBg);
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
 
-  img {
-    width: 100%;
-  }
+}
+.section h2 {
+  color: var(--textColor);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Open Sans", sans-serif;
+}
+.card-container a {
+  display: inline;
+}
+
+.card-title, .card-text, .dates, .card-text, small .text-body-secondary{
+  color: var(--textColor);
 }

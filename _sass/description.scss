@@ -1,0 +1,65 @@
+.fellow-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 30px;
+    background-color: var(--cardBg);
+    border-radius: .375rem;
+    padding: 1.5em;
+    font-size: 1.2em;
+    justify-content: center;
+  
+    .image-card {
+        width: 9rem;
+        height: 9rem;
+        border-radius: 0.3em;
+        margin: 0.5em;
+    }
+  
+    .info {
+      p {
+        margin-top: 5px;
+        margin: 0px;
+        text-align: left;
+        color: var(--textColor);
+      }
+      .title {
+        font-size: 500;
+        font-weight: bold;
+      }
+      .location,
+      .description {
+        font-size: medium;
+        font-weight: 400;
+        color: var(--textColor);
+      }
+      .dates {
+            font-size: small;
+            color: var(--textColor);
+        } 
+      .media-container {
+        display: flex;
+        flex-direction: row;
+        .social-icon {
+          margin-top: 10px;
+          width: 30px;
+          height: 30px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          text-indent: -9999px; /* hide the link text */
+        }
+        .social-icon:hover {
+          width: 40px;
+          height: 40px; 
+        }
+        a {
+          color: var(--textColor);
+          margin: 0px 0px;
+          border-radius: .375rem;
+          padding: 0.2em;
+          font-size: 1.2em;
+        }
+      }
+    }
+    
+  }
