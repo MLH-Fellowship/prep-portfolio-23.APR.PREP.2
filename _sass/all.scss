@@ -8,25 +8,6 @@
 @import "toggle";
 @import "description";
 
-@media only screen and (max-width: 1500px) {
-  .card-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .card-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .card-container {
-    grid-template-columns: 1fr;
-  }
-} 
-
-
 body {
   background-color: var(--mainBg);
   margin-bottom: 50px;
@@ -102,3 +83,21 @@ a {
 .card-title, .card-text, .dates, .card-text, small .text-body-secondary{
   color: var(--textColor);
 }
+
+@media only screen and (max-width: 1500px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+} 
