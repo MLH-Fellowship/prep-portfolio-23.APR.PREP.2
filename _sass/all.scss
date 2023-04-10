@@ -73,7 +73,12 @@ h2 {
   padding: 1.5em;
   font-size: 1.2em;
   justify-content: center;
+  &:hover {
+    background-color: #d6d4ce;
+  }
 }
+
+
 
 .row {
   margin: 30px 30px;
@@ -86,6 +91,9 @@ h2 {
   border-radius: .375rem;
   padding: 1.0em;
   font-size: 1.2em;
+  &:hover {
+    background-color: #d6d4ce;
+  }
 
 }
 
@@ -101,7 +109,7 @@ a {
   }
 
   .title {
-    font-size: 500;
+    //font-size: 500;
     font-weight: bold;
   }
 
