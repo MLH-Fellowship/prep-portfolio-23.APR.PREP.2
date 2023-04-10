@@ -81,3 +81,19 @@
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
+svg {
+ transition: all 1s ease-out;;
+  &:hover{
+    transform: scale(1.1);
+  }
+
+}
+
+.pin {
+  fill:  rgb(240, 80, 12)
+}
+.pin:hover{
+  transition: all 1s ease-out;
+    fill: #06119f;
+}
