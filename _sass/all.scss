@@ -73,8 +73,11 @@ h2 {
   padding: 1.5em;
   font-size: 1.2em;
   justify-content: center;
+  transition: all 1s ease-out;
+
   &:hover {
     background-color: #d6d4ce;
+    transform: scale(1.1);
   }
 }
 
@@ -91,8 +94,11 @@ h2 {
   border-radius: .375rem;
   padding: 1.0em;
   font-size: 1.2em;
+  transition: all 1s ease-out;
+
   &:hover {
     background-color: #d6d4ce;
+    transform: scale(1.1);
   }
 
 }
@@ -129,6 +135,7 @@ a {
       color: #404040;
   }
 
+
   .social-icon {
     margin-top: 10px;
     width: 30px;
@@ -137,10 +144,13 @@ a {
     background-position: center center;
     text-indent: -9999px; /* hide the link text */
   }
+  transition: all 1s ease-out;
+
   
     .social-icon:hover {
     width: 40px;
-    height: 40px; 
+    height: 40px;
+      transform: scale(1.05);
   }
 }
 
