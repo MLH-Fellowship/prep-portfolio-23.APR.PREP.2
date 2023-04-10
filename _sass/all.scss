@@ -5,7 +5,8 @@
 @import 'profile';
 @import 'page';
 @import "podStats";
-
+@import "toggle";
+@import "description";
 @import 'map';
 
 .section .section-title {
@@ -54,7 +55,7 @@
 
 
 body {
-  background-color: #f5f5f9;
+  background-color: var(--mainBg);
   margin-bottom: 50px;
 }
 
@@ -63,7 +64,7 @@ h2 {
   margin-top: 20px;
   font-weight: 700;
   text-align: center;
-  color: #000;
+  color: var(--textColor);
 }
 
 .card-title, .card-text, .dates, .card-text, small .text-body-secondary{
@@ -91,14 +92,14 @@ h2 {
     display: flex;
     align-items: center;
     margin: 20px 30px;
-    background-color:  #fff;
+    background-color:  var(--cardBg);
     border-radius: .375rem;
     padding: 1.5em;
     font-size: 1.2em;
 }
 
 a {
-  color: #000;
+  color: var(--textColor);
   margin: 20px 30px;
   //background-color: white;
   border-radius: .375rem;
@@ -112,7 +113,7 @@ a {
     margin-top: 5px;
     margin: 0px;
     text-align: left;
-    color: #000;
+    color: var(--textColor);
   }
 
   .title {
@@ -124,12 +125,12 @@ a {
   .description {
     font-size: medium;
     font-weight: 400;
-    color: #000;
+    color: var(--textColor);
   }
 
   .dates {
     font-size: small;
-    color: #404040;
+    color: var(--textColor);
   }   
 
   .social-icon {
@@ -158,15 +159,47 @@ a {
   }
 }
 
-.image-card {
-  width: 70px;
-  height: 70px;
-  border-radius: 0.3em;
-  ;
-  margin: 1.0em;
-  ;
+.section .section-title {
+  background-color: var(--cardBg);
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
 
-  img {
-    width: 100%;
+}
+.section h2 {
+  color: var(--textColor);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Open Sans", sans-serif;
+}
+.card-container a {
+  display: inline;
+}
+
+.card-title, .card-text, .dates, .card-text, small .text-body-secondary{
+  color: var(--textColor);
+}
+
+@media only screen and (max-width: 1500px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+} 
