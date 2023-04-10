@@ -25,7 +25,7 @@
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -35,7 +35,7 @@
 
 @media only screen and (max-width: 1500px) {
   .card-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -126,14 +126,9 @@ a {
     color: var(--textColor);
   }
 
- toggle
-    .dates {
-        font-size: small;
-        color: var(--textColor);
-    }
   .dates {
     font-size: small;
-    color: #404040;
+    color: var(--textColor);
   }   
 
   .social-icon {
