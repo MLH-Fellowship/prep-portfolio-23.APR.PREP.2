@@ -1,0 +1,68 @@
+.map-holder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: auto;
+  min-height: 50px;
+  max-width: 90%;
+}
+
+.map{
+  position: relative;
+  width: 90%;
+  left: 10%;
+  padding-bottom: 50px;
+}
+.map svg{
+  height: auto;
+  max-width: 90%;
+  z-index: 1;
+}
+.popup {
+  position: fixed;
+  width: 290px;
+  background-color: rgba(224, 208, 123, 0.89);
+  border: 6px solid #063970;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.image-card-map {
+  display: inline-block !important;
+  vertical-align: top !important;
+  float: right !important;
+  width: 70px;
+  height: 70px;
+  border-radius: 0.5em;;
+
+  img {
+    width: 100%;
+  }
+}
+
+.im-map{
+  width: 70px;
+  height: 70px;
+  border-radius: 0.5em;;
+
+  img {
+    width: 100%;
+  }
+}
+
+.popup h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 800px) {
+  .card-text {
+    display: none;
+  }
+  .popup {
+    height: 100px;
+    width: 100px;
+  }
+}
+
