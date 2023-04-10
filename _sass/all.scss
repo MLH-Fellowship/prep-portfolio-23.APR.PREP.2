@@ -7,10 +7,37 @@
 @import "podStats";
 @import "toggle";
 @import "description";
+@import 'map';
+
+.section .section-title {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+
+}
+
+.section h2 {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-container a {
+  display: inline;
+}
 
 @media only screen and (max-width: 1500px) {
   .card-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -38,6 +65,22 @@ h2 {
   font-weight: 700;
   text-align: center;
   color: var(--textColor);
+}
+
+.card-title, .card-text, .dates, .card-text, small .text-body-secondary{
+  color: #000;
+}
+
+.firt-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 30px;
+  background-color: #fff;
+  border-radius: .375rem;
+  padding: 1.5em;
+  font-size: 1.2em;
+  justify-content: center;
 }
 
 .row {
