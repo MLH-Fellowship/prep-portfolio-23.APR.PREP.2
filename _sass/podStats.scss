@@ -37,13 +37,6 @@ h2 {
   color: var(--textColor);
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
 .fellowRow:nth-child(even) {
   background-color: var(--mainBg);
   
