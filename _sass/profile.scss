@@ -14,10 +14,10 @@
     color: white;
   }
 
-  .profile-im-container{
-    display: inline-block;
-    max-width: 16%;
-  }
+  //.profile-im-container{
+  //  display: inline-block;
+  //  max-width: 16%;
+  //}
 
   img {
     border-radius: 50%;
@@ -30,10 +30,16 @@
   }
   
   @media only screen {
+    .profile-im-container{
+      display: inline-block;
+      max-width: 16%;
+      aspect-ratio: 1/1;
+    }
     .profile-picture {
       display: table-row;
       margin-bottom: 30px;
       transition: all 1s ease-out;
+
       &:hover{
 
         transform: scale(1.1);
@@ -42,10 +48,16 @@
   }
 
   @media only screen and (max-width: 1000px) {
+    .profile-im-container{
+      display: inline-block;
+      max-width: 16%;
+      aspect-ratio: 1/1;
+    }
     .profile-picture {
       display: table-row;
       margin-bottom: 30px;
       transition: all 1s ease-out;
+
       &:hover{
         transform: scale(1.1);
 
@@ -54,10 +66,16 @@
   }
 
   @media only screen and (max-width: 768px) {
+    .profile-im-container{
+      display: inline-block;
+      max-width: 25%;
+      aspect-ratio: 1/1;
+    }
     .profile-picture {
       display: table-row;
       margin-bottom: 100px;
       transition: all 1s ease-out;
+
       &:hover{
         transform: scale(1.1);
       }
