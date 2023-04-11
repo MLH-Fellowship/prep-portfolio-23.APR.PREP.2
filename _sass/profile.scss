@@ -6,6 +6,7 @@
   margin-bottom: 50px;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 2%;
   display: table;
   background: #133667;
   background-size: 100%;
@@ -41,7 +42,6 @@
     }
     .profile-picture {
       display: table-row;
-      margin-bottom: 30px;
       transition: all 1s ease-out;
 
       &:hover{
@@ -59,7 +59,6 @@
     }
     .profile-picture {
       display: table-row;
-      margin-bottom: 30px;
       transition: all 1s ease-out;
 
       &:hover{
@@ -72,12 +71,11 @@
   @media only screen and (max-width: 768px) {
     .profile-im-container{
       display: inline-block;
-      max-width: 25%;
+      max-width: 33%;
       aspect-ratio: 1/1;
     }
     .profile-picture {
       display: table-row;
-      margin-bottom: 100px;
       transition: all 1s ease-out;
 
       &:hover{
