@@ -66,3 +66,34 @@
   }
 }
 
+.section .section-title {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+
+}
+
+.section h2 {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+svg {
+ transition: all 1s ease-out;;
+  &:hover{
+    transform: scale(1.1);
+  }
+
+}
+
+.pin {
+  fill:  rgb(240, 80, 12)
+}
+.pin:hover{
+  transition: all 1s ease-out;
+    fill: #06119f;
+}
