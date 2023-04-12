@@ -47,6 +47,10 @@
     /* set the color to white or another bright color */
 }
 
+.navbar-dark .navbar-nav .nav-link:last-child {
+    margin-right: 0;
+}
+
 .navbar-dark .navbar-nav .nav-link.active {
     color: #ffc107;
     /* set the color to a bright yellow */
@@ -79,6 +83,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     margin-right: 15px;
 }

@@ -19,7 +19,8 @@ h1 {
   color: var(--textColor);
 }
 
-.leadership-board td, .leadership-board th {
+.leadership-board td,
+.leadership-board th {
   color: var(--textColor);
 }
 
@@ -64,14 +65,14 @@ label:after {
   position: absolute;
   top: 5px;
   left: 4px;
- transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
+  transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
 }
 
-input:checked + label {
+input:checked+label {
   background: var(--button);
 }
 
-input:checked + label:after {
+input:checked+label:after {
   left: calc(100% - 5px);
   -webkit-transform: translateX(-100%);
   -moz-transform: translateX(-100%);
@@ -80,7 +81,8 @@ input:checked + label:after {
   transform: translateX(-100%);
 }
 
-.container{
-  padding-top: 5px;
+.container {
+  padding-top: 2px;
   padding-right: 25px;
+  padding-bottom: 5px;
 }
